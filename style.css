@@ -379,8 +379,7 @@ footer{
 		justify-content: space-around;
 		width: 100%;
 		position: fixed;
-		top: 0;
-		left: -100%;
+		top: 0; left: -100%;
 		padding: 50% 0;
 		transition: 0.5s ease;
 	}
@@ -410,15 +409,25 @@ footer{
 		margin: 0 auto;
 	}
 	#title-title{
-		display: block;
-		margin: 0 auto;
+		flex-direction: column;
+		height: 300px;
+		padding: 20px;
+	}
+	#title-title h3{
+		font-size: 1.5rem;
+	}
+	#face{
+		width: 200px;
+		height: 200px;
 	}
 	.main-child-flex{
-		display: block;
-		margin: 0 auto;
+		flex-direction: column;
 	}
 	footer{
-		display: block;
-		margin: 0 auto;
+		flex-direction: column;
+		height: 800px;
+	}
+	.footer-child{
+		width: 380px;
 	}
 }
