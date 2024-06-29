@@ -420,14 +420,35 @@ footer{
 		width: 200px;
 		height: 200px;
 	}
+	#main h3{
+		font-size: 1.4rem;
+	}
 	.main-child-flex{
 		flex-direction: column;
+	}
+	.main-child-text{
+		font-size: 1rem;
+		line-height: 1.2rem;
+	}
+	.main-child-text h3 span{
+		font-size: 1.4rem;
+	}
+	.main-child-text p{
+		font-size: 1.2rem;
+	}
+	.main-child-img{
+		width: 200px;
+		margin: 0 auto;
 	}
 	footer{
 		flex-direction: column;
 		height: 800px;
 	}
 	.footer-child{
-		width: 380px;
+		width: 300px;
+		font-size: 1rem;
+	}
+	.footer-child h3{
+		font-size: 1.4rem;
 	}
 }
