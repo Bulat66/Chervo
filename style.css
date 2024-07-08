@@ -41,9 +41,15 @@ header .box{
 	background: white;
 	box-shadow: red;
 }
-.header .flex .navbar{
+.navbar{
 	margin: 0 1.5rem;
 	font-size: 1.8rem;
+	width: 800px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style-type: none;
 }
 #logo-box{
 	height: 160px;
@@ -67,14 +73,6 @@ header .box{
 	font-weight: 700;
 	color: var(--title);
 	text-transform: uppercase;
-}
-.navbar-adaptive{
-	width: 800px;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	list-style-type: none;
 }
 .nav-child{
 	position: relative;
@@ -111,7 +109,6 @@ header .box{
 	text-decoration: none;
 	color: white;
 }
-
 #menu-btn{
 	position: fixed;
 	bottom: 2rem; right: 2rem;
@@ -435,10 +432,10 @@ footer{
 		height: 150px;
 		padding: 14px;
 	}
-	.navbar-adaptive{
+	.navbar{
 		width: 650px;
 	}
-	.navbar-adaptive .nav-child{
+	.nav-child{
 		font-size: 1.2rem;
 	}
 	#main{
@@ -468,10 +465,10 @@ footer{
 		height: 130px;
 		padding: 12px;
 	}
-	.navbar-adaptive{
+	.navbar{
 		width: 600px;
 	}
-	.navbar-adaptive .nav-child{
+	.nav-child{
 		font-size: 1.1rem;
 	}	
 	#main{
@@ -505,11 +502,9 @@ footer{
 	}
 	.navbar{
 		margin: 0;
-	}
-	.navbar-adaptive{
 		width: 550px;
 	}
-	.navbar-adaptive .nav-child{
+	.nav-child{
 		font-size: 1rem;
 	}
 	#main{
@@ -552,7 +547,7 @@ footer{
 	#menu-btn{
 		display: inline-block;
 	}
-	.navbar-adaptive{
+	.navbar{
 		height: 110vh;
 		display: flex;
 		flex-direction: column;
@@ -578,7 +573,7 @@ footer{
 		font-size: 2rem;
 	}
 	.header .flex .navbar{
-	margin: 0;
+		margin: 0;
 	}
 	#menu-btn{
 		display: flex;
