@@ -27,7 +27,6 @@ let lines = document.getElementsByClassName('menu-style');
 
 menuBtn.onclick = () => {
     navbar.classList.toggle('active-nav');
-    navbar.classList.toggle('fa-times');
 
     lines[1].classList.toggle('cross-1');
     lines[0].classList.toggle('cross-0');

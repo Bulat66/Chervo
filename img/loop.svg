@@ -1,0 +1,20 @@
+<svg width="279.887207" height="249.612762" viewBox="0 0 279.887 249.613" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_47">
+			<rect id="loop" width="279.887207" height="249.612762" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_47)">
+		<path id="Слияние" d="M59 30.45L75.79 42.51C93.67 28.41 116.24 20 140.77 20C198.76 20 245.77 67.01 245.77 125L265.77 125C265.77 55.96 209.81 0 140.77 0C109.5 0 80.92 11.48 59 30.45ZM226.38 167.61C252.05 163.7 270.96 145.78 279.88 125.11L230.38 125.11C232.37 139.49 233.88 152.61 226.38 167.61Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Слияние" d="M220.88 219.15L204.09 207.09C186.21 221.19 163.64 229.61 139.11 229.61C81.12 229.61 34.11 182.6 34.11 124.61L14.11 124.61C14.11 193.64 70.07 249.61 139.11 249.61C170.38 249.61 198.96 238.13 220.88 219.15ZM53.5 81.99C27.83 85.9 8.91 103.82 0 124.5L49.5 124.5C47.51 110.12 46 96.99 53.5 81.99Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Прямоугольник 3" d="M124.64 84.13L110.49 69.99L61 119.49L75.14 133.64L124.64 84.13Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Прямоугольник 3" d="M110 70.46L124.14 56.31L173.64 105.82L159.49 119.96L110 70.46Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Многоугольник 2" d="M180 125L179.46 96.89L151.89 124.46L180 125Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Прямоугольник 3" d="M155 171.49L169.14 185.64L218.64 136.14L204.49 122L155 171.49Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Прямоугольник 3" d="M169.64 185.17L155.49 199.31L106 149.82L120.14 135.67L169.64 185.17Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Многоугольник 2" d="M100.91 130.91L101.45 159L129 131.45L100.91 130.91Z" fill="#56FDE0" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

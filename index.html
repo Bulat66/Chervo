@@ -2,29 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!-- <meta charset="<?php bloginfo( 'charset' ); ?>"> -->
+    <!-- <?php wp_head(); ?> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>АВИСПРОТЕИН</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- HEADER -->
 <header class='container mobile header'>
 	<div class="box flex">
-		<div class="header-content" id='logo-box'>
-			<img src="#" id='logo' alt="">
-			<div id="title">CORP</div>
-		</div>
-		<div class="header-content">
-			<ul class='navbar navbar-adaptive' id="nav">
-				<li class="nav-child"><a href='about/index.html'>About us</a></li>
-				<li class="nav-child"><a href='contact/index.html'>Contant us</a></li>
-				<li class="nav-child"><a href='prod/index.html'>Product</a></li>
-				<li class="nav-child"><a href='inf/index.html'>More information</a></li>
-			</ul>
-		</div>
-	</div>
-</header>
 
+		<div id='logo-box'>
+			<img src="img/Logo.svg" id='logo' alt="">
+			<div id="title">АВИСПРОТЕИН</div>
+		</div>
+
+		<ul class='navbar navbar-adaptive' id='nav'>
+			<li class="nav-child"><a href='about/index.html'>О НАС</a></li>
+			<li class="nav-child"><a href='contact/index.html'>КОНТАКТЫ</a></li>
+			<li class="nav-child"><a href='prod/index.html'>ПОДРОБНАЯ ИНФОРМАЦИЯ</a></li>
+		</ul>
+
+	</div>
+</header>v
 <div id="menu-btn" class="fa fa-bars-straggered">
 	<div class="menu-style"></div>
 	<div class="menu-style"></div>
@@ -38,45 +39,31 @@
 		<h3>Lorem,<span> ipsum, dolor</span></h3>
 		<div id="face"></div>
 	</div>
-	<div class="main-child mobile">
-		<div class="main-child-flex">
-			<div class="main-child-img"><img src="img/coin.svg" alt=""></div>
+	<div class="main-child main-child-flex">
+			<div class="main-child-img"><img src="img/loop.svg" alt=""></div>
 			<span class='main-child-text'>
 				<h3>Lorem, <span>ipsum, dolor</span></h3>
 				Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem accusantium doloribus repudiandae dolore dolor neque odio error eveniet aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur!
-			</span>
-		</div> 	
+			</span>	
 	</div>
-	<div class="main-child mobile">
-		<div class="main-child-flex">
-			<div class="main-child-img"><img src="img/profit.svg" alt=""></div>
+	<div class="main-child main-child-flex">
+			<div class="main-child-img"><img src="img/grow.svg" alt=""></div>
 			<span class='main-child-text'>
 				<h3>Lorem, <span>ipsum, dolor</span></h3>
 				Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem accusantium doloribus repudiandae dolore dolor neque odio error eveniet aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur!
 			</span>
-		</div>
 	</div>
-	<div class="main-child mobile">
-		<div class="main-child-flex">
-			<div class="main-child-img"><img src="img/sun.svg" alt=""></div>
+	<div class="main-child main-child-flex">
+			<div class="main-child-img"><img src="img/clear.svg" alt=""></div>
 			<span class='main-child-text'>
 				<h3>Lorem, <span>ipsum, dolor</span></h3>
 				Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem accusantium doloribus repudiandae dolore dolor neque odio error eveniet aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur! t aliquid quis! Sit ab voluptatem necessitatibus reiciendis inventore nostrum commodi nemo, consequuntur!
 			</span>
-		</div>
 	</div>
 </div>
 <!-- MAIN PART ENDS -->
 
 <!-- SLIDER STARTS -->
-
-<div id="title-slider">
-	<span>Lorem ipsum dolor
-		<p>
-			Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Porro, mollitia quaerat voluptate, architecto doloribus tempore. Nam dicta facilis, aperiam vitae.
-		</p>
-	</span>
-</div>
 
 <div id="slider">
 	<div class="slide active-slide"></div>
@@ -87,35 +74,67 @@
 
 <!-- SLIDER ENDS -->
 
+<!-- NEWS STARTS -->
+
+<div class="news">
+	<h3>НОВОСТИ</h3>
+	<div class="flex">
+		<div class="news-item">
+			<a href='https://bash.news/news/184482-v-baskirii-biologi-naucilis-sozdavat-korm-dlya-ptic-iz-kurinogo-pometa'>
+				<div class="img"></div>
+				<div class='news-logo'></div>
+				<span><p>Птичий корм из куриного помета: ученые из Башкирии нашли решение проблемы переработки отходов</p></span>
+			</a>
+		</div>
+		<div class="news-item">
+			<a href='https://gtrk.tv/novosti/283877-ptichiy-korm-kurinogo-pometa-uchenye-bashkirii-nashli-reshenie-problemy-pererabotki'>
+				<div class="img"></div>
+				<div class='news-logo'></div>
+				<span><p>Птичий корм из куриного помета: ученые из Башкирии нашли решение проблемы переработки отходов</p></span>
+			</a>
+		</div>
+		<div class="news-item">
+			<a href='https://mir24.tv/news/16537132/rossiiskie-uchenye-nauchilis-sozdavat-korm-dlya-ptic-iz-kurinogo-pometa'>
+			<div class="img"></div>
+				<div class='news-logo'></div>
+				<span><p>Российские ученые научились создавать корм для птиц из куриного помета</p></span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- NEWS ENDS -->
+
+<!-- ABOUT STARTS -->
+
+<div id="about">
+	<span><h3>о компании</h3>
+		<p>
+			Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Porro, mollitia quaerat voluptate, architecto doloribus tempore. Nam dicta facilis, aperiam vitae.
+		</p>
+	</span>
+</div>
+
+<!-- ABOUT ENDS -->
+
+
+
 <!-- FOOTER -->
-	<footer class='mobile'>
-		<div class="footer-child">
-			<h3>contact</h3>
-			<ul class="footer-list">
-				<li class='footer-list-item'>chervoaleksey@mail.ru</li>
-				<li class='footer-list-item'>+7 999 999 99 99</li>
-				<li class='footer-list-item'>com.ru</li>
-			</ul>
-		</div>
-		<div class="footer-child">
-			<h3>news</h3>
-			<ul class="footer-list">
-				<li class='footer-list-item'>
-					<a href="#">bash.news</a>
-				</li>
-				<li class='footer-list-item'>
-					<a href="#">gtrk.tv</a>
-				</li>
-				<li class='footer-list-item'>
-					<a href="#">mir24.tv</a>
-				</li>
-			</ul>
-		</div>
-		<div class="footer-child">
-			<h3>our support</h3>
-			<img src="#" alt="">
-		</div>
-	</footer>
+<footer class='mobile'>
+	<!-- <?php wp_footer(); ?> -->
+	<div class="footer-child">
+		<h3>contact</h3>
+		<ul class="footer-list">
+			<li class='footer-list-item'>chervoaleksey@mail.ru</li>
+			<li class='footer-list-item'>+7 999 999 99 99</li>
+			<li class='footer-list-item'>com.ru</li>
+		</ul>
+	</div>
+	<div class="footer-child">
+		<h3>our support</h3>
+		<img src="#" alt="">
+	</div>
+</footer>
 <!-- FOOTER END -->
 </body>
 <script src="script.js"></script>
