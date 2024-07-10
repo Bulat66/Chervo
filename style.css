@@ -647,7 +647,8 @@ footer .container{
 		flex-direction: column-reverse;
 	}
 	.menu-footer{
-		max-width: 440px;
+		width: 440px;
+		max-width: 95%;
 		padding: 10px;
 		margin: 0 auto;
 	}
