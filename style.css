@@ -3,6 +3,7 @@
 	--box: ;
 	--accent: #56FDE0;
 	--title: #00bf56;
+	--dark: #001a14;
 }
 *,*:before,*:after{
 	box-sizing: border-box;
@@ -47,7 +48,7 @@ ul{
 header{
 	height: 200px;
 	padding: 20px 40px;
-	background: #001a14;
+	background: var(--dark);
 	margin: 40px auto;
 }
 header .box{
@@ -215,12 +216,23 @@ header .box{
 	border-radius: 10px;
 	background: #005234;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	box-shadow: 0 0 4px 3px var(--accent);
 }
 .main-child-img img{
 	width: 100%;
+	max-width: 210px;
+}
+.main-child-img p{
+	font-size: 1.5rem;
+	color: white;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+  	padding: 20px;
 }
 .main-child-text{
 	max-width: 850px;
@@ -389,7 +401,7 @@ footer .container{
 	margin: 1rem auto;
 }
 .btn-download{
-	width: 100%;
+	width:100px;
 	height: 50px;
 	border-radius: 10px;
 	background: #00cc9c;
@@ -536,6 +548,10 @@ footer .container{
 		width: 200px;
 		height: auto;
 	}
+	.main-child-img p{
+		font-size: 1.3rem;
+		padding: 15px;
+	}
 	.menu-footer-child{
 		font-size: 1.2rem;
 	}
@@ -658,6 +674,9 @@ footer .container{
 		width: 200px;
 		height: auto;
 		margin: 0 auto;
+	}
+	.main-child-img p{
+		font-size: 1.2rem;
 	}
 	.news .flex{
 		display: flex;
