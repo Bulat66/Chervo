@@ -1,5 +1,4 @@
 // SLIDER
-
 let slider = document.getElementById('slider');
 let slides = document.getElementsByClassName('slide');
 
@@ -15,14 +14,11 @@ function nextSlide() {
 }
 let intervalId = setInterval(nextSlide, 5000);
 
-
 // NAVIGATION ADAPTIVE
-
 let menuBtn = document.getElementById('menu-btn');
 let navbar = document.getElementById('nav');
 
 // NAVIGATION BUTTON STYLE
-
 let lines = document.getElementsByClassName('menu-style');
 
 menuBtn.onclick = () => {
@@ -32,3 +28,14 @@ menuBtn.onclick = () => {
     lines[0].classList.toggle('cross-0');
     lines[2].classList.toggle('cross-2');
 }
+
+// DOWNLOAD BTN
+document.getElementById('downloadButton').addEventListener('click', function() {
+    // Создаем ссылку для загрузки файла
+    var link = document.createElement('a');
+    link.download = 'карта партнера'; // Установите имя файла для скачивания
+    link.href = 'https://disk.yandex.ru/i/lnTV9kZVVmhVug'; // Установите путь к файлу для скачивания
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});

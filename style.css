@@ -281,7 +281,9 @@ header .box{
 	width: 100%;
 }
 .news .flex{
-	flex-wrap: wrap-reverse;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-around;
 }
 .news h3{
 	margin: 40px;
@@ -354,7 +356,6 @@ header .box{
 }
 footer{
 	width: 100%;
-	padding: 20px 0;
 	background: linear-gradient(180deg, rgba(0,41,26,1) 0%, rgba(0,0,0,1) 100%);
 }
 footer .container{
@@ -454,11 +455,11 @@ footer .container{
 		max-width: 1000px;
 	}
 	.main-child-img{
-		width: 200px;
+		min-width: 200px;
 		height: auto;
 	}
 	.main-child-text{
-		max-width: 700px;
+		padding: 20px;
 	}
 	#slider{
 		max-width: 1000px;
@@ -490,14 +491,8 @@ footer .container{
 		width: 200px;
 		height: auto;
 	}
-	.main-child-text{
-		max-width: 600px;
-	}
 	#slider{
 		max-width: 900px;
-	}
-	.flex:last-child{
-		display: block;
 	}
 }
 /**/
@@ -505,9 +500,14 @@ footer .container{
 	.container{
 		max-width: 800px;
 	}
+	header{
+		margin: 0 auto;
+		height: 180px;
+	}
 	header .box{
 		max-width: 780px;
 		padding: 0;
+
 	}
 	#logo-box{
 		width: 120px;
@@ -525,6 +525,10 @@ footer .container{
 	#main{
 		max-width: 780px;
 	}
+	.main-child-flex{
+		flex-direction: column;
+		align-items: center;
+	}
 	#slider{
 		max-width: 780px;
 	}
@@ -532,8 +536,36 @@ footer .container{
 		width: 200px;
 		height: auto;
 	}
-	.main-child-text{
-		max-width: 500px;
+	.menu-footer-child{
+		font-size: 1.2rem;
+	}
+	footer .flex{
+		display: block;
+	}
+	.footer-list .flex{
+		font-size: 1.2rem;
+		display: flex;
+		justify-content: center;
+	}
+	footer .flex:nth-child(2){
+		display: flex;
+		align-items: center;
+		flex-direction: column-reverse;
+	}
+}
+@media (max-width: 800px){
+	header{
+		height: 170px;
+	}
+	.navbar{
+		width: 650px;
+		margin: 0 auto;
+	}
+	.nav-child{
+		padding: 0px;
+	}
+	.nav-child a{
+		font-size: 1rem;
 	}
 }
 /**/
@@ -612,9 +644,6 @@ footer .container{
 	#main h3{
 		font-size: 1.4rem;
 	}
-	.main-child-flex{
-		flex-direction: column;
-	}
 	.main-child-text{
 		font-size: 1rem;
 		line-height: 1.2rem;
@@ -638,13 +667,14 @@ footer .container{
 		justify-content: space-between;
 		flex-wrap: nowrap;
 	}
-	footer .flex{
-		display: block;
+	.news-item{
+	width: 300px;
+	padding: 15px;
+	border-radius: 15px;
 	}
-	footer .flex:nth-child(2){
-		display: flex;
-		align-items: center;
-		flex-direction: column-reverse;
+	.news-item .img{
+		width: 270px;
+		height: 220px;
 	}
 	.menu-footer{
 		width: 440px;
