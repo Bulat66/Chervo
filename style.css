@@ -47,29 +47,28 @@ ul{
 }
 header{
 	height: 200px;
-	padding: 20px 40px;
 	background: var(--dark);
 	margin: 40px auto;
 }
-header .box{
+header .container{
+	height: 100%;
+}
+header .flex{
 	width: 100%;
 	max-width: 1200px;
 	height: 100%;
 	margin: 0 auto;
-	padding: 2rem;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .header.active{
 	background: white;
 	box-shadow: red;
 }
 .navbar{
-	margin: 0 1.5rem;
 	font-size: 1.8rem;
 	width: 800px;
-	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -401,7 +400,8 @@ footer .container{
 	margin: 1rem auto;
 }
 .btn-download{
-	width:100px;
+	width: 100%;
+	max-width: 350px;
 	height: 50px;
 	border-radius: 10px;
 	background: #00cc9c;
@@ -409,6 +409,7 @@ footer .container{
 	align-items: center;
 	justify-content: center;
 	font-size: 1.5rem;
+	margin: 0 auto;
 }
 .btn-download:hover{
 	background: var(--accent);
@@ -431,6 +432,8 @@ footer .container{
 	justify-content: center;
 	text-align: center;
 	transition: .4s linear;
+}
+.menu-footer-child a{
 	text-transform: uppercase;
 	font-size: 1.4rem;
 	font-family: "Poppins", sans-serif;
@@ -438,6 +441,8 @@ footer .container{
   	font-style: normal;
   	max-width:	400px;
 	max-height: 200px;
+	text-decoration: none;
+	color: white;
 }
 .menu-footer-child:hover{
 	background: #3ebca6;
@@ -459,9 +464,6 @@ footer .container{
 	}
 	.navbar{
 		width: 650px;
-	}
-	.nav-child{
-		font-size: 1.2rem;
 	}
 	#main{
 		max-width: 1000px;
@@ -493,7 +495,7 @@ footer .container{
 	.navbar{
 		width: 600px;
 	}
-	.nav-child{
+	.nav-child a{
 		font-size: 1.1rem;
 	}	
 	#main{
@@ -516,10 +518,9 @@ footer .container{
 		margin: 0 auto;
 		height: 180px;
 	}
-	header .box{
+	header .flex{
 		max-width: 780px;
 		padding: 0;
-
 	}
 	#logo-box{
 		width: 120px;
@@ -530,8 +531,9 @@ footer .container{
 	.navbar{
 		margin: 0;
 		width: 550px;
+		justify-content: space-around;
 	}
-	.nav-child{
+	.nav-child a{
 		font-size: 1rem;
 	}
 	#main{
@@ -552,7 +554,7 @@ footer .container{
 		font-size: 1.3rem;
 		padding: 15px;
 	}
-	.menu-footer-child{
+	.menu-footer-child a{
 		font-size: 1.2rem;
 	}
 	footer .flex{
@@ -571,17 +573,17 @@ footer .container{
 }
 @media (max-width: 800px){
 	header{
-		height: 170px;
+		height: 240px;
 	}
-	.navbar{
-		width: 650px;
-		margin: 0 auto;
+	header .flex{
+		flex-direction: column;
 	}
 	.nav-child{
 		padding: 0px;
 	}
 	.nav-child a{
 		font-size: 1rem;
+		font-weight: 600;
 	}
 }
 /**/
@@ -642,7 +644,7 @@ footer .container{
 		align-items: center;
 		justify-content: space-around;
 	}
-	header .box{
+	header .flex{
 		display: block;
 	}
 	#title-title{
@@ -687,9 +689,9 @@ footer .container{
 		flex-wrap: nowrap;
 	}
 	.news-item{
-	width: 300px;
-	padding: 15px;
-	border-radius: 15px;
+		width: 300px;
+		padding: 15px;
+		border-radius: 15px;
 	}
 	.news-item .img{
 		width: 270px;
@@ -700,6 +702,9 @@ footer .container{
 		max-width: 95%;
 		padding: 10px;
 		margin: 0 auto;
+	}
+	.menu-footer-child a{
+		font-size: 1rem;
 	}
 	#about p{
 		font-size: 1rem;
