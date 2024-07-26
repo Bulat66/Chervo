@@ -691,6 +691,6 @@ footer .container:nth-child(1){
 		height: 60px;
 	}
 	.map{
-		width: 350px;
+		max-width: 300px;
 	}
 }
