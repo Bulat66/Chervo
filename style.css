@@ -16,8 +16,6 @@
 }
 html{
 	font-size: 16px;
-	@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 }
 body{
 	background: #00291A;
@@ -256,23 +254,23 @@ header{
 }
 .slide:nth-child(2){
 	background: url('img/slide-2.jpg') no-repeat;background-size: cover;
-	background-position: center; center;
+	background-position: center;
 }
 .slide:nth-child(3){
 	background: url('img/slide-3.jpg') no-repeat;background-size: cover;
-	background-position: center center;
+	background-position: center;
 }
 .slide:nth-child(4){
 	background: url('img/slide-4.jpg') no-repeat;background-size: cover;
-	background-position: center center; 
+	background-position: center;
 }
 .slide:nth-child(5){
 	background: url('img/slide-5.jpg') no-repeat;background-size: cover;
-	background-position: center center; 
+	background-position: center;
 }
 .slide:nth-child(6){
 	background: url('img/slide-6.jpg') no-repeat;background-size: cover;
-	background-position: center center; 
+	background-position: center;
 }
 .active-slide{
 	width: 100%;
