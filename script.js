@@ -16,13 +16,13 @@ let intervalId = setInterval(nextSlide, 5000);
 
 // NAVIGATION ADAPTIVE
 let menuBtn = document.getElementById('menu-btn');
-let navbar = document.getElementById('nav');
+let navbar = document.getElementsByClassName('type-a-nav');
 
 // NAVIGATION BUTTON STYLE
 let lines = document.getElementsByClassName('menu-style');
 
 menuBtn.onclick = () => {
-    navbar.classList.toggle('active-nav');
+    navbar[0].classList.toggle('type-a-active-nav');
 
     lines[1].classList.toggle('cross-1');
     lines[0].classList.toggle('cross-0');
