@@ -39,3 +39,66 @@ document.getElementById('downloadButton').addEventListener('click', function() {
     link.click();
     document.body.removeChild(link);
 });
+
+// SHAKE
+let type_c_child_img = document.getElementsByClassName('type-c-child-img');
+let element = type_c_child_img[0];
+let element_2 = type_c_child_img[1];
+let element_3 = type_c_child_img[2]; 
+
+console.log(element.clientWidth);
+
+function shake(){
+    let rotation = 0;
+    let cycles = 3;
+    let degree = 15;
+    let direction = 1;
+
+    function shake_move(){
+        rotation = direction * degree;
+        
+        element.style.transform = `rotate(${rotation}deg)`;
+            direction *= -1;
+            cycles--;
+            if (cycles <= 0) { setTimeout(width_grow, 500)};
+        
+    }
+
+
+    function width_grow(a,b,c){
+        
+        element.style.width = 0 + `px`;
+        // element.style.display = 'none'
+
+        element_2.style.width = 100 + `px`;
+        element_3.style.width = 100 + `px`;
+
+        // element_2.style.display = 'block'
+        // element_3.style.display = 'block'
+
+        function width_grow_back(a,b,c){
+            element.style.width = 100 + `px`;
+            // element.style.display = 'block'
+
+            element_2.style.width = 0 + `px`;
+            element_3.style.width = 0 + `px`;
+
+            // element_2.style.display = 'none'
+            // element_3.style.display = 'none'
+            shake();
+        }
+        setTimeout(width_grow_back, 5000);
+    }
+
+    function shake_move_cycle(){
+            shake_move();
+            
+            setTimeout(() => {
+                shake_move();
+                setTimeout(shake_move, 500);
+            }, 500);
+    }
+    shake_move_cycle();
+}
+
+    shake();
