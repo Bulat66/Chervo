@@ -70,8 +70,8 @@ function shake(){
         element.style.width = 0 + `px`;
         // element.style.display = 'none'
 
-        element_2.style.width = 100 + `px`;
-        element_3.style.width = 100 + `px`;
+        element_2.style.width = 80 + `px`;
+        element_3.style.width = 80 + `px`;
 
         // element_2.style.display = 'block'
         // element_3.style.display = 'block'
